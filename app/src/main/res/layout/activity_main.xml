@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.viewdraghelpdemo.VDHLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.viewdraghelpdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Hello World One"/>
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Hello World Two"/>
+
+    <TextView
+        android:id="@+id/tv_three"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Hello World Three"/>
+
+    <Button
+        android:id="@+id/bt_one"
+        android:text="ONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_two"
+        android:text="TWO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.app.viewdraghelpdemo.VDHLayout>
