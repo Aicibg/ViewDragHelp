@@ -1,0 +1,2 @@
+# ViewDragHelp
+利用ViewDragHelp自定义控件实现布局内控件自由移动，自己实现ioc框架，注解实现布局和控件初始化
